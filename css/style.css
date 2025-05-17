@@ -44,12 +44,15 @@ body {
 @media (min-width: 768px) {
 .flexbox-container2 {
     display: flex;
+    
 
 }
 .flexbox-aside {
     background-color: purple;
     order: 1;
     flex: 1;
+    align-content: center;
+    
     
 }
 .flexbox-article {
