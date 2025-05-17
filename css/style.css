@@ -41,3 +41,20 @@ body {
 .flexbox-articles {
     background-color: red;   
 }
+@media (min-width: 768px) {
+.flexbox-container2 {
+    display: flex;
+
+}
+.flexbox-aside {
+    background-color: purple;
+    order: 1;
+    flex: 1;
+    
+}
+.flexbox-article {
+    order: 2;
+    flex: 3;
+}
+
+}
