@@ -5,17 +5,18 @@ body {
 .flexbox-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    padding: 1em;
+    gap: 1em;
 }
 .flexbox-item {
-    min-width: 250px;
-    margin: 5px;
-    border: 3px solid#333;
+
+    border: 3px solid#333; 
     border-radius: 10px;
     background-color: #dfdfdf;
     text-align: center;
     color: white;
-    align-items: center;
+    padding: 1em;
+
 }
 .flexbox-header {
     background-color: teal;
@@ -25,7 +26,8 @@ body {
     display: flex;
     flex-direction: column;
     background-color: lightgreen;
-    flex-grow: 1;
+    gap: 1em;
+    
     
 }
 .flexbox-aside {
@@ -37,13 +39,5 @@ body {
     
 }
 .flexbox-articles {
-    align-items: center;
-    justify-content: center;
-    background-color: red;
-    width: 230px;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-grow: 1;
-
-    
+    background-color: red;   
 }
